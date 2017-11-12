@@ -113,30 +113,16 @@
 
       <section class="product-sort">
         <h2>Сортировка</h2>
-        <fieldset>
-          <p>
-            <label for="sort-proce">По цене</label>
-            <input id="sort-proce" type="radio" name="sort-type" class="visually-hiden">
-          </p>
-          <p>
-            <label for="sort-type">По типу</label>
-            <input id="sort-type" type="radio" name="sort-type" class="visually-hiden">
-          </p>
-          <p>
-            <label for="sort-popular">По популярности</label>
-            <input id="sort-popular" type="radio" name="sort-type" class="visually-hiden">
-          </p>
-        </fieldset>
-        <fieldset>
-          <p>
-            <label for="sort-ascending">По возрастанию</label>
-            <input id="sort-ascending" type="radio" name="sort-order" class="visually-hiden">
-          </p>
-          <p>
-            <label for="sort-descending">По убыванию</label>
-            <input id="sort-descending" type="radio" name="sort-order" class="visually-hiden">
-          </p>
-        </fieldset>
+        <ul class="sort-option">
+          <li><button type="button" class="sort-button">По цене</button></li>
+          <li><button type="button" class="sort-button">По типу</button></li>
+          <li><button type="button" class="sort-button">По популярности</button></li>
+        </ul>
+  
+        <ul class="sort-order">
+          <li><button type="button" class="sort-button">По возрастанию</button></li>
+          <li><button type="button" class="sort-button">По убыванию</button></li>
+        </ul>
       </section>
 
       <section class="catalog">
