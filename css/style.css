@@ -72,7 +72,6 @@ body {
   list-style: none;
 }
 
-
 .main-nav-top input[type="text"] {
   padding: 0;
   margin: 0;
@@ -83,7 +82,6 @@ body {
   background: none;
   border: none;
 }
-
 
 .main-nav-top input[type="text"]:focus {
   color: black;
@@ -112,6 +110,7 @@ body {
 .main-footer-logo:hover {
   opacity: 0.6;
 }
+
 .main-header-logo:active,
 .main-footer-logo:active {
   opacity: 0.3;
