@@ -22,23 +22,26 @@
 
 .visually-hidden {
   position: absolute;
+
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
+
+  border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 .button {
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  font-family: "Gilroy", Arial, sans-serif ;
-  font-size: 18px;
   letter-spacing: 0.2em;
+
   border: none;
   background: none;
   background-image: linear-gradient(transparent 33%, #f0c52e 33%, #f0c52e 66%, transparent 66%);
@@ -59,9 +62,10 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Gilroy", Arial, sans-serif ;
-  color: black;
+
   font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;
+  color: black; 
 }
 
 .main-header {
@@ -76,30 +80,35 @@ body {
   padding: 0;
   margin: 0;
   padding-left: 40px;
-  color: #ac9e69;
-  font-family: "Open Sans", Arial, sans-serif;
+  
   font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #ac9e69;
+
   background: none;
   border: none;
 }
 
 .main-nav-top input[type="text"]:focus {
   color: black;
+
   border-bottom: 2px solid black;
 }
 
 .main-nav-top button {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
   text-transform: none;
   font-weight: normal;
+
   background: none;
   border: 2px solid black;
 }
 
-.main-nav-top button:hover {
-  background-color: black;
+.main-nav-top button:hover {  
   color: white;
+
+  background-color: black;
 }
 
 .main-nav-top button:active {
@@ -125,15 +134,15 @@ body {
 }
 
 .main-nav-top a {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif; 
   color: black;
   text-decoration: none;
 }
 
 .site-navigation-item>a {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
-  /*  font-size: 18px;*/
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif ;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -142,41 +151,42 @@ body {
 }
 
 .catalog-navigation a {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
   text-decoration: none;
   color: black;
 }
 
 .slider-list .item-promo {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
-  font-weight: bold;
   font-size: 47px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: bold;  
 }
 
 .item-promo span {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
+  font-family: "Open Sans", Arial, sans-serif; 
 }
 
 .slider-item th {
-  font-weight: none;
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 20px; 
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: none; 
 }
 
 .slider-item td {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 36px;
+  font-family: "Open Sans", Arial, sans-serif; 
 }
 
 .product-category-item {
   width: 160px;
   height: 160px;
-  background-color: #f7e296;
   margin:  10px
+
+  background-color: #f7e296;
 }
 
 .product-category-item:hover {
@@ -184,8 +194,8 @@ body {
 }
 
 .product-category-item a {
-  /*font-family: "Gilroy", Arial, sans-serif ;
-  font-size: 18px;*/
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;
   color: black;
   font-weight: bold;
   text-decoration: none;
@@ -196,27 +206,27 @@ body {
 }
 
 .services button {
-  /*font-family: "Gilroy", Arial, sans-serif ;
-  font-size: 18px;*/
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;  
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.2em;
 }
 
 .services h3 {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
-  font-weight: bold;
   font-size: 47px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .services p {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px
+  font-family: "Open Sans", Arial, sans-serif; 
 }
 
 .information h3 {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
+  font-family: "Gilroy", Arial, sans-serif;
   font-weight: bold;
   font-size: 47px;
 }
@@ -228,7 +238,7 @@ body {
 }
 
 .information li {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
+  font-family: "Gilroy", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
 }
@@ -259,18 +269,18 @@ body {
 
 .product-filter h2,
 .product-sorting h2 {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
+  font-size: 16px;
+  font-family: "Gilroy", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 16px;
   letter-spacing: 0.2em;
 }
 
 .product-filter input,
 .product-filter p {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 40px;
+  font-family: "Open Sans", Arial, sans-serif;
   color: black;
 }
 
@@ -281,13 +291,14 @@ body {
 
 .product-filter fieldset {
   width: 200px;
+
   border: none;
 }
 
 .product-filter legend {
-  /*font-family: "Gilroy", Arial, sans-serif ;*/
-  font-weight: bold;
   font-size: 14px;
+  font-family: "Gilroy", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .product-sorting {
@@ -296,9 +307,9 @@ body {
 
 .sorting-option a,
 .sorting-order a {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 19px;
+  font-family: "Open Sans", Arial, sans-serif; 
   text-decoration: none;
   color: #bcbcbc;
 }
@@ -362,8 +373,8 @@ a.sorting-item-active {
 }
 
 .catalog b {
-  font-weight: normal;
   font-size: 16px;
+  font-weight: normal;  
   color: #464646;
 }
 
@@ -373,8 +384,8 @@ a.sorting-item-active {
 
 .footer-user-navigation a,
 .main-footer-middle b {
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: none;
   text-decoration: none;
   color: white;
@@ -414,16 +425,17 @@ a.sorting-item-active {
 }
 
 .modal-login label {
-  /*font-family: "Gilroy", Arial, sans-serif ;
-   font-size: 18px;*/
+  font-size: 18px;
+  font-family: "Gilroy", Arial, sans-serif;
   font-weight: bold;
 }
 
 .modal-login input,
 .modal-login textarea {
-  background-color: #f2f2f2;
-  border: none;
-  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 30px;
+  font-family: "Open Sans", Arial, sans-serif; 
+
+  background-color: #f2f2f2;
+  border: none; 
 }
