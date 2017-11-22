@@ -9,59 +9,56 @@
   </head>
   <body>
     <header class="main-header container">
-      <nav class="main-nav">
-        <a class="main-header-logo" href="index.html">
-          <img src="img/logo.png" width="166" height="35" alt="Логотип DEVICE">
-        </a>
-        <div class="main-nav-top">
-          <form action="https://echo.htmlacademy.ru" method="post">
-            <p>
-              <label class="visually-hidden" for="search">Найти</label>
-              <input type="text" id="search" name="search" placeholder="Поиск по сайту">
-              <button class="button" type="submit">Найти</button> 
-            </p>     
-          </form>
+        
+        <div class="header-background">
+          <a class="main-header-logo" href="index.html">
+            <img src="img/logo.png" width="166" height="35" alt="Логотип DEVICE">
+          </a>
           
-          <div class="profile-navigation">
+          <div class="header-nav-top">
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <p>
+                <label class="visually-hidden" for="search">Найти</label>
+                <input type="text" id="search" name="search" placeholder="Поиск по сайту">
+                <button class="button" type="submit">Найти</button> 
+              </p>     
+            </form>
+          
+            <div class="profile-navigation">
               <ul>
                 <li class="login-link"><a href="#">Войти</a></li>
               </ul> 
             </div>
+          
+            <div>
+              <ul class="user-navigation">    
+                <li><a class="compare" href="#">Сравнить</a></li>
+                <li><a class="cart" href="#">Корзина</a></li>
+              </ul>
+            </div>
+          </div>
 
-          <ul class="user-navigation">
-            <li><a class="compare" href="#">Сравнить</a></li>
-            <li><a class="cart" href="#">Корзина</a></li>
-          </ul>
-        </div>
-        
-        <div class="main-nav-bottom">
-          <ul class="site-navigation">
-            <li class="site-navigation-item">
-              <a href="#">Каталог товаров</a>
-              <table class="catalog-navigation">
-                <tr>
-                  <td><a href="#">Виртуальная реальность</a></td>
-                  <td><a href="#">Моноподы для селфи</a></td>
-                  <td><a href="#">Экшн-камеры</a></td>
-                </tr>
-                <tr>
-                  <td><a href="#">Фитнес-браслеты</a></td>
-                  <td><a href="#">Умные-часы</a></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td><a href="#">Квадрокоптер</a></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </table> 
-            </li>
-            <li class="site-navigation-item"><a href="#">Доставка</a></li>
-            <li class="site-navigation-item"><a href="#">Гарантия</a></li>
-            <li class="site-navigation-item"><a href="#">Контакты</a></li>
-          </ul>
-        </div>  
-      </nav>
+          <nav class="main-nav">  
+            <div class="main-nav-bottom">
+              <ul class="site-navigation">
+                <li class="site-navigation-item">
+                  <a href="#">Каталог товаров</a>
+                  <ul class="catalog-navigation">
+                    <li><a href="#">Виртуальная реальность</a></li>
+                    <li><a href="#">Фитнес-браслеты</a></li>
+                    <li><a href="#">Квадрокоптеры</a></li>
+                    <li><a href="#">Моноподы для селфи</a></li>
+                    <li><a href="#">Умные-часы</a></li>
+                    <li><a href="#">Экшн-камеры</a></li>
+                  </ul>
+                </li>
+                <li class="site-navigation-item"><a href="#">Доставка</a></li>
+                <li class="site-navigation-item"><a href="#">Гарантия</a></li>
+                <li class="site-navigation-item"><a href="#">Контакты</a></li>
+              </ul>
+            </div>  
+          </nav>
+      </div>
     </header>
 
     <main class="main-catalog container">
@@ -71,7 +68,7 @@
         <li><a href="#">Каталог товаров</a></li>
         <li><a class="breacrumbs-current">Моноподы для селфи</a></li>
       </ul>
-
+      
         <div class="content">
           <section class="product-filter">
             <h2 >Фильтр:</h2>
