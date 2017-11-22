@@ -83,7 +83,7 @@ h1.main-title{
 
 .header-background {
   background-color: #f7e296;
-  min-height: 300px;
+  min-height: 190px;
 }
 .main-header ul {
   margin: 0;
@@ -250,11 +250,18 @@ h1.main-title{
 
 ul.catalog-navigation {
   position: absolute;
-  margin-top: 25px;
+  padding-top: 25px;
+  margin-left: -60px;
+  padding-bottom: 25px;
+  padding-right: 440px;
+  padding-left: 60px;
 
-  width: 680px;
+  box-sizing: border-box;
+  width: 1160px;
   display: flex;
   flex-wrap: wrap;
+
+  background: #f7e296;
 }
 
 .catalog-navigation li{
@@ -282,6 +289,11 @@ ul.catalog-navigation {
   text-decoration: none;
   color: black;
 }
+
+.slider-navigation {
+  margin: 0;
+}
+
 
 .slide-list{
   margin: 0;
