@@ -8,8 +8,10 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="main-image visually-hidden">
+      <img src="img/device-index.jpg" alt="Шаблон для проверки">
+    </div> 
     <header class="main-header container">
-        
         <div class="header-background">
           <a class="main-header-logo">
             <img src="img/logo.png" width="166" height="35" alt="Логотип DEVICE">
@@ -23,40 +25,34 @@
                 <button class="button" type="submit">Найти</button> 
               </p>     
             </form>
-          
-            <div class="profile-navigation">
-              <ul>
-                <li class="login-link"><a href="#">Войти</a></li>
-              </ul> 
-            </div>
-          
-            <div>
-              <ul class="user-navigation">    
-                <li><a class="compare" href="#">Сравнить</a></li>
-                <li><a class="cart" href="#">Корзина</a></li>
-              </ul>
-            </div>
+
+            <ul class="profile-navigation">
+              <li class="login-link"><a href="#">Войти</a></li>
+            </ul> 
+         
+            <ul class="user-navigation">    
+              <li><a class="compare" href="#">Сравнить</a></li>
+              <li><a class="cart" href="#">Корзина</a></li>
+            </ul>
           </div>
 
-          <nav class="main-nav">  
-            <div class="main-nav-bottom">
-              <ul class="site-navigation">
-                <li class="site-navigation-item">
-                  <a href="catalog.html">Каталог товаров</a>
-                  <ul class="catalog-navigation">
-                    <li><a href="#">Виртуальная реальность</a></li>
-                    <li><a href="#">Фитнес-браслеты</a></li>
-                    <li><a href="#">Квадрокоптеры</a></li>
-                    <li><a href="#">Моноподы для селфи</a></li>
-                    <li><a href="#">Умные-часы</a></li>
-                    <li><a href="#">Экшн-камеры</a></li>
-                  </ul>
-                </li>
-                <li class="site-navigation-item"><a href="#">Доставка</a></li>
-                <li class="site-navigation-item"><a href="#">Гарантия</a></li>
-                <li class="site-navigation-item"><a href="#">Контакты</a></li>
-              </ul>
-            </div>  
+          <nav class="main-nav">
+            <ul class="site-navigation">
+              <li class="site-navigation-item">
+                <a href="catalog.html">Каталог товаров</a>
+                <ul class="catalog-navigation">
+                  <li><a href="#">Виртуальная реальность</a></li>
+                  <li><a href="#">Фитнес-браслеты</a></li>
+                  <li><a href="#">Квадрокоптеры</a></li>
+                  <li><a href="#">Моноподы для селфи</a></li>
+                  <li><a href="#">Умные-часы</a></li>
+                  <li><a href="#">Экшн-камеры</a></li>
+                </ul>
+              </li>
+              <li class="site-navigation-item"><a href="#">Доставка</a></li>
+              <li class="site-navigation-item"><a href="#">Гарантия</a></li>
+              <li class="site-navigation-item"><a href="#">Контакты</a></li>
+            </ul> 
           </nav>
       </div>
     </header>
@@ -79,9 +75,9 @@
           </li>
         </ul>
 
+        <div class="slide-container">
         <ul class="slide-list">
-          <li class="slider-item">           
-<!--             <div class="slider-item-content"> можно оставить li как флекс????-->
+            <li class="slider-item">           
               <h3 class="visually-hidden">Палка для селфи</h3>
               <img src="img/slider-1.png" width="384" height="486" alt="Монопод">
               <div class="slider-item-info">
@@ -104,64 +100,58 @@
                   </tr>
                 </table>
               </div>
-            <!-- </div>  -->
-            <input class="visually-hidden" type="radio" name="slider" id="slider-item-1" value="слайд-1" checked>
+              <input class="visually-hidden" type="radio" name="slider" id="slider-item-1" value="слайд-1" checked>
           </li>
-
+          
           <li class="slider-item">
-              <h3 class="visually-hidden">Фитнес браслет</h3>
-              <img src="img/slider-2.png" width="345" height="485" alt="Фитнес браслет">
-              <div class="slider-item-info">
-                <b class="item-text-promo">Худеем <br> правильно</b>
-                <p class="item-text">
-                  <span>Мотивирующие фитнес-браслеты помогут найти в себе силы </span>
-                  <span>не пропускать занятия и соблюдать диету.</span>
-                </p>
-                <a class="button" href="#">Подробнее</a>
-                <table>
-                  <tr>
-                    <td>48 часов</td>
-                  </tr>
-                  <tr>
-                    <th>Без подзарядки</th>
-                  </tr>
-                </table>
-              </div>
+            <h3 class="visually-hidden">Фитнес браслет</h3>
+            <img src="img/slider-2.png" width="345" height="485" alt="Фитнес браслет">
+            <div class="slider-item-info">
+              <b class="item-text-promo">Худеем <br> правильно</b>
+              <p class="item-text">
+                <span>Мотивирующие фитнес-браслеты помогут найти в себе силы </span>
+                <span>не пропускать занятия и соблюдать диету.</span>
+              </p>
+              <a class="button" href="#">Подробнее</a>
+              <table>
+                <tr>
+                  <td>48 часов</td>
+                </tr>
+                <tr>
+                  <th>Без подзарядки</th>
+                </tr>
+              </table>
+            </div>
             <input class="visually-hidden" type="radio" name="slider" id="slider-item-2" value="слайд-2">
           </li>
-
+          
           <li class="slider-item">
-              <h3 class="visually-hidden">Квадрокоптер</h3>
-              <img src="img/slider-3.png" width="526" height="334" alt="Фитнес браслет">
-              <div class="slider-item-info">
-                <b class="item-text-promo">Порхает как бабочка, жалит как пчела!</b>
-                <p class="item-text">
-                  <span>Этот обычный, на первый взгляд, квадрокоптер оснащен </span>
-                  <span>мощным лазером, замаскированным под стандартную камеру.</span>
-                </p>
-                <a class="button" href="#">Подробнее</a>
-                <table>
-                  <tr>
-                    <td>800 м</td>
-                    <td>50 м</td>
-                  </tr>
-                  <tr>
-                    <th>Дальность полета</th>
-                    <th>Радиус поражения</th>
-                  </tr>
-                </table>
-              </div>
+            <h3 class="visually-hidden">Квадрокоптер</h3>
+            <img src="img/slider-3.png" width="526" height="334" alt="Фитнес браслет">
+            <div class="slider-item-info">
+              <b class="item-text-promo">Порхает как бабочка, жалит как пчела!</b>
+              <p class="item-text">
+                <span>Этот обычный, на первый взгляд, квадрокоптер оснащен </span>
+                <span>мощным лазером, замаскированным под стандартную камеру.</span>
+              </p>
+              <a class="button" href="#">Подробнее</a>
+              <table>
+                <tr>
+                  <td>800 м</td>
+                  <td>50 м</td>
+                </tr>
+                <tr>
+                  <th>Дальность полета</th>
+                  <th>Радиус поражения</th>
+                </tr>
+              </table>
+            </div>
             <input class="visually-hidden" type="radio" name="slider" id="slider-item-3" value="слайд-3">
           </li>
-        </ul> 
+        </ul>       
+      </div>    
       </section>
-      
-
-      <!-- Тут несколько вариантов
-      либо спозиционировать ссылки ниже блока
-      либо квадраты сделать псевдоэлементами и поставить выше ссылок
-      ну или сделать 2 отдельных элемента
-      не один из вариантов не нравиться да и не прошли еще это пока так осталю -->
+    
       <section class="product-category container">
         <h2 class="visually-hidden">Категории товара</h2>
         <ul class="product-category-list">

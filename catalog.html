@@ -8,62 +8,84 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="main-image"></div>
     <header class="main-header container">
+      <div class="header-background">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/logo.png" width="166" height="35" alt="Логотип DEVICE">
+        </a>
+         
+                 
+        <div class="header-nav-top">
+          <form  action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label class="visually-hidden" for="search">Найти</label>
+              <input type="text" id="search" name="search" placeholder="Поиск по сайту">
+
+              <button class="button" type="submit">Найти</button></p> 
+          </form>
         
-        <div class="header-background">
-          <a class="main-header-logo" href="index.html">
-            <img src="img/logo.png" width="166" height="35" alt="Логотип DEVICE">
-          </a>
-          
-          <div class="header-nav-top">
-            <form  action="https://echo.htmlacademy.ru" method="post">
-              <p>
-                <label class="visually-hidden" for="search">Найти</label>
-                <input type="text" id="search" name="search" placeholder="Поиск по сайту">
-                <button class="button" type="submit">Найти</button> 
-              </p>     
-            </form>
-          
-              <ul class="profile-navigation">
-                <li class="login-link"><a href="#">Войти</a></li>
-              </ul> 
-          
-              <ul class="user-navigation">    
-                <li><a class="compare" href="#">Сравнить</a></li>
-                <li><a class="cart" href="#">Корзина</a></li>
-              </ul>
+            <ul class="profile-navigation">
+              <li class="login-link"><a href="#">Войти</a></li>
+            </ul> 
+        
+            <ul class="user-navigation">    
+              <li><a class="compare" href="#">Сравнить</a></li>
+              <li><a class="cart" href="#">Корзина</a></li>
+            </ul>
           </div>
 
           <nav class="main-nav">  
-              <ul class="site-navigation">
-                <li class="site-navigation-item">
-                  <a href="#">Каталог товаров</a>
-                  <ul class="catalog-navigation">
-                    <li><a href="#">Виртуальная реальность</a></li>
-                    <li><a href="#">Фитнес-браслеты</a></li>
-                    <li><a href="#">Квадрокоптеры</a></li>
-                    <li><a href="#">Моноподы для селфи</a></li>
-                    <li><a href="#">Умные-часы</a></li>
-                    <li><a href="#">Экшн-камеры</a></li>
-                  </ul>
-                </li>
-                <li class="site-navigation-item"><a href="#">Доставка</a></li>
-                <li class="site-navigation-item"><a href="#">Гарантия</a></li>
-                <li class="site-navigation-item"><a href="#">Контакты</a></li>
-              </ul> 
+            <ul class="site-navigation">
+              <li class="site-navigation-item">
+                <a href="#">Каталог товаров</a>
+                <ul class="catalog-navigation visually-hidden">
+                  <li><a href="#">Виртуальная реальность</a></li>
+                  <li><a href="#">Фитнес-браслеты</a></li>
+                  <li><a href="#">Квадрокоптеры</a></li>
+                  <li><a href="#">Моноподы для селфи</a></li>
+                  <li><a href="#">Умные-часы</a></li>
+                  <li><a href="#">Экшн-камеры</a></li>
+                </ul>
+              </li>
+              <li class="site-navigation-item"><a href="#">Доставка</a></li>
+              <li class="site-navigation-item"><a href="#">Гарантия</a></li>
+              <li class="site-navigation-item"><a href="#">Контакты</a></li>
+            </ul> 
           </nav>
       </div>
     </header>
 
-    <main class="main-catalog container">
-      <h1 class="main-title">Моноподы для селфи</h1>
-      <ul class="breadcrumbs">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="#">Каталог товаров</a></li>
-        <li><a class="breacrumbs-current">Моноподы для селфи</a></li>
-      </ul>
+    <main class="main-catalog">
+      <div class="container">
+        <h1 class="main-title">Моноподы для селфи</h1>
+        <ul class="breadcrumbs">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Каталог товаров</a></li>
+          <li><a class="breacrumbs-current">Моноподы для селфи</a></li>
+        </ul>
+      </div>
       
+
+
+
         <div class="content">
+          <div class="background-sorting">
+            <section class="product-sorting container">
+              <h2>Сортировка:</h2>
+              <ul class="sorting-option">
+                <li><a class="sorting-item sorting-item-active" href="#">По цене</a></li>
+                <li><a class="sorting-item" href="#">По типу</a></li>
+                <li><a class="sorting-item" href="#">По популярности</a></li>
+              </ul>
+              <ul class="sorting-order">
+                <li><a class="sorting-item sorting-item-active" href="#">По возрастанию</a></li>
+                <li><a class="sorting-item" href="#">По убыванию</a></li>
+              </ul>
+            </section>
+          </div>
+          
+          <div class="background-content-left"></div>
           <section class="product-filter">
             <h2 >Фильтр:</h2>
             <form action="https://echo.htmlacademy.ru" method="post">
@@ -108,21 +130,7 @@
               <button class="button" type="submit">Показать</button>
             </form>
           </section> 
-          
-          <div class="right-content">
-            <section class="product-sorting">
-              <h2>Сортировка:</h2>
-              <ul class="sorting-option">
-                <li><a class="sorting-item sorting-item-active" href="#">По цене</a></li>
-                <li><a class="sorting-item" href="#">По типу</a></li>
-                <li><a class="sorting-item" href="#">По популярности</a></li>
-              </ul>
-              <ul class="sorting-order">
-                <li><a class="sorting-item sorting-item-active" href="#">По возрастанию</a></li>
-                <li><a class="sorting-item" href="#">По убыванию</a></li>
-              </ul>
-            </section>
-                
+
             <section class="catalog">
               <h2 class="visually-hidden">Список товаров</h2>
               <ul class="catalog-list">
@@ -163,9 +171,16 @@
                 <li class="pagination-next"><a href="">Вперед</a></li>
               </ul>
             </section>
-          </div>
+          <div class="background-content-right"></div>
+
         </div>
-  
+
+
+
+
+
+          
+        
     </main>
 
     <footer class="main-footer">
