@@ -259,8 +259,9 @@
           <p>
             Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.
           </p>
-          <a href="#"><img src="img/map.jpg" alt="Карта офиса по адресу улица Строителей, 15"></a>
-          <a class="button" href="#">Напишите нам</a>
+          <a class="office-map" href="#"><img src="img/map.jpg" alt="Карта офиса по адресу улица Строителей, 15">
+          </a>
+          <button class="button btn-send-msg" href="#">Напишите нам</button>
         </section>
       </div>
     </main>
@@ -326,11 +327,11 @@
     </footer>
   
     <section class="modal modal-login">
-      <h2 class="visually-hidden">Форма логина</h2>
+      <h2 class="visually-hidden">Форма отправки сообещния</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
         <p>
-          <label for="first-name">Ваше имя:</label>
-          <input type="text" id="first-name" name="first-name" placeholder="Представтесь пожалуйста">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" name="name" placeholder="Представтесь пожалуйста">
         </p>
         <p>
           <label for="email" >Ваш e-mail:</label>
@@ -338,8 +339,6 @@
         </p>
         <p>
           <label for="text-letter">Текст письма</label>
-        </p>
-        <p>
           <textarea name="text-letter" id="text-letter" cols="30" rows="5" placeholder="В свободной форме"></textarea>
         </p>
         <button class="modal-close" type="button">Закрыть</button>
@@ -349,8 +348,9 @@
 
     <section class="modal modal-map">
       <h2 class="visually-hidden">Мы на карте</h2>
-      <!-- Здесь будет карта -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931625486!3d55.68703098053581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1512328220949" width="960" height="560" frameborder="0" style="border:0" allowfullscreen></iframe> frameborder="0" style="border:0" allowfullscreen></iframe>frameborder="0" style="border:0" allowfullscreen></iframe>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
+    <script src="js/popup.js"></script>
   </body>
 </html>

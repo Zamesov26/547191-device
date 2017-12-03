@@ -714,7 +714,7 @@ ul.services-category-list {
   margin-bottom: 75px;
 }
 
-.contacts img {
+.contacts a {
   margin-bottom: 75px;
 }
 
@@ -802,6 +802,7 @@ ul.services-category-list {
 }
 
 .content::after {
+  z-index: -1;
   content: "";
   position: absolute;
   background-color: rgba(0, 0, 0, 0.08);
@@ -1265,7 +1266,7 @@ a.sorting-item-active {
   align-items: center;
 }
 
-.footer-bottom:before{
+.footer-bottom:before {
   margin-right: 120px;
   content: "";
   width: 80px;
@@ -1308,7 +1309,6 @@ a.sorting-item-active {
   opacity: 0.1;
 }
 
-
 .main-footer-social li {
   margin-right: 22px;
 }
@@ -1316,8 +1316,6 @@ a.sorting-item-active {
 .main-footer-social li:last-child {
   margin-right: 0;
 }
-
-
 
 .footer-copyright {
   margin: 0;
@@ -1331,7 +1329,6 @@ a.sorting-item-active {
 .html-logo:active {
   opacity: 0.3;
 }
-
 
 .modal-login label {
   font-size: 18px;
@@ -1350,15 +1347,16 @@ a.sorting-item-active {
 }
 
 .modal {
+  display: none;
+  top: 160px;
   position: fixed;  
-
+  font-size: 0;
   color: #000000;
 
   background-color: #ffffff;  
 }
 
 .modal-login {
-  top: 160px;
   width: 760px;
   left: 50%;
   margin-left: -460px;
@@ -1368,6 +1366,32 @@ a.sorting-item-active {
               75px 0 40px -75px rgba(0, 0, 0, 0.7),
               -75px 0 40px -75px rgba(0, 0, 0, 0.7),
               0 10px 30px -10px rgba(0, 0, 0, 0.7);
+}
+
+.modal p {
+  margin: 0;
+  margin-bottom: 35px;
+  display: inline-block;
+  min-width: 320px;
+}
+
+.modal p:first-child{
+  margin-right: 80px;
+}
+
+.modal label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.modal input[type="text"] {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.modal textarea {
+  padding: 10px 20px;
+  width: 720px;
 }
 
 .modal-close {
@@ -1391,6 +1415,8 @@ a.sorting-item-active {
   content: "";
 
   position: absolute;
+  left:  15px;
+  top: 25px;
 
   width: 25px;
   height: 3px;
@@ -1400,4 +1426,46 @@ a.sorting-item-active {
 
 .modal-close::before {
   transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
+.modal .button {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.modal-map {
+  left: 50%;
+  margin-left: -480px;
+  width: 960px;
+  height: 560px;
+
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2)
+}
+
+@keyframes bounce {
+  0% { transform: translateY(-2000px); }
+  70% { transform: translateY(30px); }
+  90% { transform: translateY(-10px); }
+  700% { transform: translateY(-0px); }
+}
+
+.modal-show {
+  display: block;
+  animation-name: bounce;
+  animation-duration: 0.6s;
+}
+
+@keyframes shake {
+  0%, 100%                { transform: translateX(0);     }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+  20%, 40%, 60%, 80%      { transform: translateX(10px);  }
+}
+
+.modal-error {
+  animation-name: shake;
+  animation-duration: 0.6s;
 }
