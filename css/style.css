@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Gilroy';
-  src: url('../font/GilroyextraBold.woff');
+  src: url('../font/gilroyextraBold.woff');
   src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
     url('../font/gilroyextraBold.woff') format('woff'),
-    url('../font/GilroyextraBold.ttf') format('truetype');
+    url('../font/gilroyextraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../font/Gilroylight.woff');
+  src: url('../font/gilroylight.woff');
   src: local('Gilroy Light'), local('Gilroy-Light'),
     url('../font/gilroylight.woff') format('woff'),
-    url('../font/Gilroylight.ttf') format('truetype');
+    url('../font/gilroylight.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
