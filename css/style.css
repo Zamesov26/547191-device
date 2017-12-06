@@ -228,8 +228,8 @@ body {
   list-style: none;
 }
 
-.profile-navigation a:first-of-type{
-  background: url("../img/user.svg") no-repeat 0 3px;
+.user-navagation-item:first-child a {
+  background: url("../img/user.svg") no-repeat 5px 4px;
   padding-left: 30px;
 }
 
@@ -1122,6 +1122,10 @@ ul.services-category-list {
   transform:  rotate(-45deg);
 }
 
+.color-checkbox:focus + label:before{
+  outline: 2px solid #0099ff;
+}
+
 .checkbox label:hover:after,
 .checkbox label:hover:before,
 .checkbox input[type=checkbox]:checked + label:hover:after {
@@ -1159,6 +1163,10 @@ ul.services-category-list {
 
 .radio-box input[type="radio"]:checked + label:before{
   background-color: #000000;
+}
+
+.radio-box input[type="radio"]:focus + label:before{
+  outline: 2px solid #0099ff;
 }
 
 .product-filter button{
@@ -1579,7 +1587,6 @@ a.sorting-item-active {
   width: 12px;
   height: 12px; 
   margin-top: 5px;
-  margin-left: -10px;
 }
 
 .footer-compare:before {
@@ -1657,6 +1664,7 @@ a.sorting-item-active {
 
 .footer-login-link:before {
   background: url("../img/user-footer.svg") no-repeat center;
+  margin-left: -8px;
 }
 
 .main-footer-social {
