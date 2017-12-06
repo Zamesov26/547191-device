@@ -1664,7 +1664,7 @@ a.sorting-item-active {
 
 .footer-login-link:before {
   background: url("../img/user-footer.svg") no-repeat center;
-  margin-left: -8px;
+  margin-left: 4px;
 }
 
 .main-footer-social {
