@@ -599,7 +599,6 @@ body {
   padding-left: 8px;
 }
 
-
 .services-background {
   min-width: 1200px;
   margin-bottom: 90px;
@@ -933,8 +932,6 @@ ul.services-category-list {
   display: block;
   flex-grow: 1;
   max-width: 100%;
-  /*background-color: red;*/
-
 }
 
 .main-catalog {
@@ -954,7 +951,6 @@ ul.services-category-list {
 
   background-color: rgba(0, 0, 0, 0.08);
 }
-
 
 .content h2 {
   margin: 0;
@@ -1050,8 +1046,6 @@ ul.services-category-list {
   margin-right: 60px;
 }
 
-/*----------------------------*/
-
 .product-filter fieldset {
   padding: 0;
   width: 200px;
@@ -1084,7 +1078,6 @@ ul.services-category-list {
 
 .color-setting-item {
   position: relative;
-
 }
 
 .color-label:after,
@@ -1154,7 +1147,6 @@ ul.services-category-list {
   box-shadow: inset 0 0 0 4px #efefef;
   background-color: transparent;
   border-radius: 50%;
-  
 }
 
 .radio-box input[type="radio"]:focus + label[type="text"] {
@@ -1202,7 +1194,7 @@ ul.services-category-list {
   margin-bottom: 23px;
 }
 
-.test {
+.product-conteiner {
   width: 760px;
   padding-left: 74px;
   padding-right: 20px;
@@ -1211,11 +1203,6 @@ ul.services-category-list {
   flex-wrap: wrap;
   flex-direction: column;
 }
-
-/*.test:after {
-  content: "";
-}*/
-
 .product-sorting {
   width: 760px;
   display: flex;
@@ -1223,7 +1210,6 @@ ul.services-category-list {
   height: 70px;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .product-sorting h2 {
@@ -1607,8 +1593,6 @@ a.sorting-item-active {
 .footer-user-navigation a:active:before {
   opacity: 0.3;
 }
-
-
 
 .footer-user-navigation a:hover ,
 .footer-profile-navigation a:hover{
