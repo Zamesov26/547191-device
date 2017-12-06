@@ -162,7 +162,7 @@ body {
   outline-style: none;
 }
 
-.button-serch {
+.button-search {
   display: none;
 
   background: none;
@@ -175,7 +175,7 @@ body {
   border-bottom: 2px solid black;
 }
 
-.header-nav-top input[type="search"]:focus + button,
+input[type="search"]:focus + .button-search,
 .header-nav-top button:hover {
   display: inline-block;
   margin: 0;
@@ -345,7 +345,7 @@ body {
 
   display: none;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 29px;
   padding-right: 440px;
   padding-left: 60px;
   margin-left: 20px;
@@ -1149,15 +1149,11 @@ ul.services-category-list {
   border-radius: 50%;
 }
 
-.radio-box input[type="radio"]:focus + label[type="text"] {
-  
-}
-
-.radio-box input[type="radio"]:checked + label:before{
+input[type="radio"]:checked + .radoi-label:before{
   background-color: #000000;
 }
 
-.radio-box input[type="radio"]:focus + label:before{
+input[type="radio"]:focus + .radoi-label:before{
   outline: 2px solid #0099ff;
 }
 
@@ -1364,7 +1360,7 @@ a.sorting-item-active {
 
 }
 
-.catalog-item a:hover + .bay-setting,
+a:hover + .bay-setting,
 .bay-setting:hover{
   visibility: visible;
 }
