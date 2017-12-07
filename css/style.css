@@ -117,7 +117,7 @@ body {
 .main-header-logo {
   position: relative;
   left: 58px;
-  top: -18px;
+  top: -16px;
 }
 
 .main-header-logo:hover,
@@ -970,7 +970,8 @@ ul.services-category-list {
 }
 
 .product-filter h2 {
-  margin-bottom: 67px;
+  margin-bottom: 65px;
+  padding-left: 3px;
 }
 
 .filter-item {
@@ -1065,7 +1066,7 @@ ul.services-category-list {
 }
 
 .color-setting {
-  margin-bottom: 25px;
+  margin-bottom: 27px;
 }
 
 .color-setting legend {
@@ -1084,7 +1085,7 @@ ul.services-category-list {
 .color-label:before {
   position:absolute;
   content:'';
-  top:5px;
+  top:3px;
   left: 0;
 
   display:block;
@@ -1096,11 +1097,11 @@ ul.services-category-list {
 }
 
 .color-label{
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .color-checkbox:checked + label:after {
-  top:  7px;
+  top:  5px;
   left: 5px;
 
   width:16px;
@@ -1130,7 +1131,7 @@ ul.services-category-list {
 }
 
 .radio-box label {
-  padding-left: 35px;
+  padding-left: 40px;
 }
 
 .radio-box label::before {
@@ -1149,11 +1150,11 @@ ul.services-category-list {
   border-radius: 50%;
 }
 
-input[type="radio"]:checked + .radoi-label:before{
+input[type="radio"]:checked + .radio-label:before{
   background-color: #000000;
 }
 
-input[type="radio"]:focus + .radoi-label:before{
+input[type="radio"]:focus + .radio-label:before{
   outline: 2px solid #0099ff;
 }
 
@@ -1187,7 +1188,15 @@ input[type="radio"]:focus + .radoi-label:before{
 }
 
 .bluetooth-setting {
-  margin-bottom: 23px;
+  margin-bottom: 25px;
+}
+
+.bluetooth-setting legend {
+  margin-bottom: 25px;
+}
+
+.bluetooth-setting p {
+  padding-bottom:  12px;
 }
 
 .product-conteiner {
@@ -1301,8 +1310,8 @@ a.sorting-item-active {
   right: 27px;
   top: 29px;
   
-  width: 50px;
-  height: 50px;
+  width: 56px;
+  height: 56px;
   
   background-image: url("../img/NEW.png");
   background-repeat: no-repeat;
@@ -1391,7 +1400,7 @@ a:hover + .bay-setting,
 
 .pagination-list {
   margin:0;
-  margin-bottom: 80px;
+  margin-bottom: 79px;
   padding: 0; 
 
   display: flex;
@@ -1465,6 +1474,10 @@ a:hover + .bay-setting,
 }
 
 .catalog b {
+  padding-top: 3px;
+
+  font-family: "Gilroy", Arial, sans-serif;
+  text-align: right;
   font-size: 16px;
   font-weight: normal;  
   color: #464646;
@@ -1488,7 +1501,6 @@ a:hover + .bay-setting,
 .footer-user-navigation,
 .footer-profile-navigation {
   padding: 0;
-  padding-top: 4px;
   margin: 0;
 
   list-style: none;
@@ -1514,8 +1526,13 @@ a:hover + .bay-setting,
   color: white;
 }
 
+.main-footer-middle a {
+  font-family: "Gilroy", Arial, sans-serif;
+  font-size: 17px;
+}
+
 .main-footer-middle {
-  margin-bottom: 65px;
+  margin-bottom: 63px;
 
   display: flex;
   justify-content: space-between;
@@ -1529,23 +1546,20 @@ a:hover + .bay-setting,
   text-align: right;
 }
 
-.main-footer-middle ul {
+.footer-site-navigation {
+  display: flex;
   margin: 0;
-  margin-right: -0.2em;
   padding: 0;
-
   list-style: none;
 }
 
 .main-footer-middle li {
-  margin-right:  40px;
-  float: left;
+    margin-right:  36px;
 }
 
 .main-footer-middle li:last-child {
-  margin: 0;
-} 
-
+  margin-right:  0;
+}
 
 .main-footer-middle span {
   font-weight: normal;
@@ -1571,12 +1585,17 @@ a:hover + .bay-setting,
   margin-top: 5px;
 }
 
-.footer-compare:before {
+a.footer-login-link::before {
+  background: url("../img/user-footer.svg") no-repeat center;
+  left: -7px;
+}
+
+.footer-compare::before {
   background: url("../img/compare-footer.svg") no-repeat center;
 }
 
 
-.footer-cart:before {
+.footer-cart::before {
   background: url("../img/cart-footer.svg") no-repeat center;
 }
 
@@ -1603,10 +1622,11 @@ a:hover + .bay-setting,
 .footer-site-navigation a {
   color: white;
   font-family: "Gilroy", Arial, sans-serif;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.20em;
   text-decoration: none;
 }
 
@@ -1640,11 +1660,6 @@ a:hover + .bay-setting,
 
 .footer-copyright {
   width: 200px;
-}
-
-.footer-login-link:before {
-  background: url("../img/user-footer.svg") no-repeat center;
-  margin-left: 4px;
 }
 
 .main-footer-social {
