@@ -67,8 +67,7 @@
 body {
   margin-top: 40px;
 
-  font-size: 18px;
-  font-family: "Open Sans", Arial, sans-serif;
+  /*font-family: "Open Sans", Arial, sans-serif;*/
   color: black; 
 }
 
@@ -119,13 +118,13 @@ body {
 }
 
 .header-nav-top ul{
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .main-header-logo {
   position: relative;
-  left: 58px;
-  top: -16px;
+  left: 59px;
+  top: -18px;
 }
 
 .main-header-logo:hover,
@@ -141,9 +140,9 @@ body {
 .header-nav-top input[type="search"] {
   margin: 0;
   padding: 0;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
   padding-top: 2px;
-  padding-left: 40px;
+  padding-left: 37px;
   height: 44px;
   width: 356px;
 
@@ -296,7 +295,7 @@ input[type="search"]:focus + .button-search,
 .header-nav-top .compare {
   padding-left: 20px;
 
-  background: url("../img/compare.svg") no-repeat 11px 4px;
+  background: url("../img/compare.svg") no-repeat 9px 3px;
 }
 
 .header-nav-top .cart {
@@ -506,7 +505,7 @@ input[type="search"]:focus + .button-search,
   padding: 0;
 
   font-size: 47px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.015em;
   line-height: normal;
   font-family: "Gilroy", Arial, sans-serif;
   font-weight: bold;  
@@ -565,7 +564,7 @@ input[type="search"]:focus + .button-search,
 }
 
 .product-category {
-  margin-bottom: 86px;
+  margin-bottom: 88px;
 }
 
 .product-category-list {
@@ -772,7 +771,7 @@ ul.services-category-list {
 }
 
 .information{
-  margin-bottom: 80px;
+  margin-bottom: 82px;
 
   display: flex;
   justify-content: space-between;
@@ -786,7 +785,7 @@ ul.services-category-list {
 
 .information p {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
@@ -877,7 +876,7 @@ ul.services-category-list {
 }
 
 .contacts a {
-  margin-bottom: 63px;
+  margin-bottom: 68px;
 }
 
 .breadcrumbs {
@@ -969,8 +968,8 @@ ul.services-category-list {
 .product-filter h2 {
   margin: 0;
   padding: 0;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  padding-top: 28px;
+  padding-bottom: 26px;
 }
 
 .product-filter {
@@ -1078,7 +1077,7 @@ ul.services-category-list {
 }
 
 .product-filter legend {
-  margin-top: 12px;
+  margin-top: 14px;
   margin-bottom: 29px;
 
   float: left;
@@ -1092,7 +1091,7 @@ ul.services-category-list {
 }
 
 .color-setting legend {
-  margin-bottom: 22px;
+  margin-bottom: 19px;
 }
 
 .product-filter-legend + * {
@@ -1107,8 +1106,8 @@ ul.services-category-list {
 .color-label:before {
   position:absolute;
   content:'';
-  top:5px;
-  left: 0;
+  top: 7px;
+  left: -2px;
 
   display:block;
   height:20px;
@@ -1119,12 +1118,12 @@ ul.services-category-list {
 }
 
 .color-label{
-  padding-left: 40px;
+  padding-left: 39px;
 }
 
 .color-checkbox:checked + label:after {
-  top:  8px;
-  left: 7px;
+  top:  9px;
+  left: 4px;
 
   width:16px;
   height:6px;
@@ -1153,7 +1152,7 @@ ul.services-category-list {
 }
 
 .radio-box label {
-  padding-left: 40px;
+  padding-left: 39px;
 }
 
 .radio-box label::before {
@@ -1182,7 +1181,6 @@ input[type="radio"]:focus + .radio-label:before{
 
 .product-filter button{
   width: 200px;
-  padding-left: 20px;
 }
 
 .product-filter h2,
@@ -1214,7 +1212,7 @@ input[type="radio"]:focus + .radio-label:before{
 }
 
 .bluetooth-setting legend {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .product-container {
@@ -1313,7 +1311,7 @@ input[type="radio"]:focus + .radio-label:before{
   padding: 0;
   width: 760px;
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 44px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -1425,7 +1423,7 @@ input[type="radio"]:focus + .radio-label:before{
 
 .pagination-list {
   margin:0;
-  margin-bottom: 79px;
+  margin-bottom: 78px;
   padding: 0; 
 
   display: flex;
@@ -1517,7 +1515,7 @@ input[type="radio"]:focus + .radio-label:before{
 }
 
 .main-footer-top {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 
   display: flex;
   justify-content: space-between;
@@ -1571,13 +1569,13 @@ input[type="radio"]:focus + .radio-label:before{
   display: flex;
   margin: 0;
   padding: 0;
-  padding-top: 5px;
+  padding-top: 7px;
 
   list-style: none;
 }
 
 .main-footer-middle li {
-    margin-right:  36px;
+    margin-right:  33px;
 }
 
 .main-footer-middle li:last-child {
@@ -1600,7 +1598,7 @@ input[type="radio"]:focus + .radio-label:before{
 .footer-user-navigation a:before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
   
   width: 12px;
@@ -1610,6 +1608,7 @@ input[type="radio"]:focus + .radio-label:before{
 
 a.footer-login-link::before {
   background: url("../img/user-footer.svg") no-repeat center;
+  top: -2px;
   left: -7px;
 }
 
