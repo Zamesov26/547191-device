@@ -5,7 +5,7 @@
     <title>HTML Academy: Девайс</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header container">
@@ -323,19 +323,19 @@
       <form action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label for="name">Ваше имя:</label>
-          <input type="text" id="name" name="name" placeholder="Представтесь пожалуйста" required>
+          <input type="text" id="name" name="name" placeholder="Представтесь пожалуйста">
         </p>
         <p>
           <label for="email" >Ваш e-mail:</label>
-          <input type="text" id="email" name="email" placeholder="Для отправки ответа">
+          <input type="email" id="email" name="email" placeholder="Для отправки ответа">
         </p>
         <p>
           <label for="text-letter">Текст письма</label>
-          <textarea name="text-letter" id="text-letter" cols="30" rows="5" placeholder="В свободной форме" required></textarea>
+          <textarea name="text-letter" id="text-letter" cols="30" rows="5" placeholder="В свободной форме"></textarea>
         </p>
-        <button class="modal-close" type="button">Закрыть</button>
         <button class="button" type="submit">Отправить</button>
       </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
 
     <section class="modal modal-map">

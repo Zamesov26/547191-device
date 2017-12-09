@@ -151,7 +151,7 @@ body {
   line-height: 36px;
   font-family: "Open Sans", Arial, sans-serif;
   color: #ac9e69;
-  
+
   box-sizing: border-box;
   background: none;
   background-image: url("../img/search.svg");
@@ -1028,6 +1028,11 @@ ul.services-category-list {
   cursor: pointer;
 }
 
+.range-controls .toggle:active {
+  width: 5px;
+  height: 5px;
+}
+
 .range-controls .toggle-min {
   left: -5px;
 }
@@ -1203,10 +1208,6 @@ input[type="radio"]:focus + .radio-label:before{
   margin-bottom: 25px;
 }
 
-.bluetooth-setting p {
-  padding-bottom:  12px;
-}
-
 .product-container {
   width: 760px;
   padding-left: 74px;
@@ -1256,10 +1257,6 @@ input[type="radio"]:focus + .radio-label:before{
   margin-right: auto;
 }
 
-.sorting-option li {
-  margin-right: 30px;
-}
-
 .sorting-order-item {
   display: inline-block;
   width: 10px;
@@ -1277,27 +1274,29 @@ input[type="radio"]:focus + .radio-label:before{
 
 .sorting-option a,
 .sorting-order a {
-  padding-left: 70px;
   font-size: 14px;
   line-height: 18px;
   font-family: "Open Sans", Arial, sans-serif; 
   text-decoration: none;
   color: black;
-
-  opacity: 0.2;
 }
 
-a.sorting-item-active {
+.sorting-item {
+    opacity: 0.2;
+    margin-right: 30px;
+}
+
+.sorting-item-active {
   opacity: 1;
 }
 
-.sorting-option a:hover,
-.sorting-order a:hover {
+.sorting-item:hover,
+.sorting-item:hover {
   opacity:  0.3;
 }
 
-.sorting-option a:active,
-.sorting-order a:active {
+.sorting-item:active,
+.sorting-item:active {
   opacity: 1;
 }
 
@@ -1778,7 +1777,7 @@ a.footer-login-link::before {
   display: block;
 }
 
-.modal input[type="text"] {
+.modal input {
   padding: 10px 20px;
   width: 360px;
   height: 50px;
@@ -1787,12 +1786,12 @@ a.footer-login-link::before {
   background-color: rgba(242, 242, 242, 0.5);
 }
 
-.modal input[type="text"]:hover,
+.modal input:hover,
 .modal textarea:hover {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-.modal input[type="text"]:focus,
+.modal input:focus,
 .modal textarea:focus {
   background-color: #ffffff;
   box-shadow:inset 0 0 0 3px #f7e296;
@@ -1895,7 +1894,7 @@ a.footer-login-link::before {
 }
 
 
-.modal input[type="text"]:required:invalid,
+.modal input:invalid,
 .modal textarea:required:invalid {
   background-color: #f6dada;
 }
