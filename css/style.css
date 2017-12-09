@@ -162,6 +162,10 @@ body {
   outline-style: none;
 }
 
+.header-nav-top input[type="search"]:valid {
+  color: red; 
+}
+
 input[type="search"]::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.3); }
 input[type="search"]::-moz-placeholder          { color: rgba(0, 0, 0, 0.3); } /* Firefox 19+ */
 input[type="search"]:-moz-placeholder           { color: rgba(0, 0, 0, 0.3); } /* Firefox 18- */
@@ -177,6 +181,11 @@ input[type="search"]:hover:-ms-input-placeholder      { color: rgba(0, 0, 0, 0.6
 
   background: none;
   border: 2px solid black;
+}
+
+
+.header-nav-top input[type="search"]:valid {
+  color: black; 
 }
 
 .header-nav-top input[type="search"]:focus {
@@ -477,9 +486,9 @@ input[type="search"]:focus + .button-search,
 }
 
 .slider-item-info {
-  margin-right: 60px;
+  margin-right: 50px;
   margin-top: 37px;
-  width: 500px;
+  width: 510px;
 }
 
 .item-text-promo:before {
