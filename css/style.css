@@ -1872,6 +1872,10 @@ a.footer-login-link::before {
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2)
 }
 
+.modal-map iframe {
+  border-width: 0;
+}
+
 @keyframes bounce {
   0% { transform: translateY(-2000px); }
   70% { transform: translateY(30px); }
