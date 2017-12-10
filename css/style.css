@@ -780,6 +780,7 @@ ul.services-category-list {
 }
 
 .information{
+  color: #464646;
   margin-bottom: 81px;
   display: flex;
   justify-content: space-between;
@@ -811,6 +812,7 @@ ul.services-category-list {
 }
 
 .information li {
+  color: black;
   position: relative;
   margin-bottom: 22px;
   
