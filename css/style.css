@@ -67,7 +67,6 @@
 body {
   margin-top: 40px;
 
-  /*font-family: "Open Sans", Arial, sans-serif;*/
   color: black; 
 }
 
@@ -182,7 +181,6 @@ input[type="search"]:hover:-ms-input-placeholder      { color: rgba(0, 0, 0, 0.6
   border: 2px solid black;
 }
 
-
 .header-nav-top input[type="search"]:valid {
   color: black; 
 }
@@ -247,7 +245,6 @@ input[type="search"]:focus + .button-search,
   list-style: none;
 }
 
-
 .user-navagation-item:first-child a {
   background: url("../img/user.svg") no-repeat 5px 4px;
   padding-left: 30px;
@@ -272,7 +269,6 @@ input[type="search"]:focus + .button-search,
   display: flex;
   list-style: none;
 }
-
 
 .user-navigation li:last-child {
   margin-left: 22px;
@@ -607,7 +603,6 @@ input[type="search"]:focus + .button-search,
 }
 
 .product-category-item img{
-
   margin: auto;
 }
 
