@@ -1334,7 +1334,7 @@ input[type="radio"]:focus + .radio-label:before{
   width: 56px;
   height: 56px;
   
-  background-image: url("../img/NEW.png");
+  background-image: url("../img/new.png");
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid black;
@@ -1521,6 +1521,7 @@ input[type="radio"]:focus + .radio-label:before{
   padding: 0;
   margin: 0;
 
+  display: flex;
   list-style: none;
 }
 
@@ -1531,8 +1532,6 @@ input[type="radio"]:focus + .radio-label:before{
 .footer-user-navigation li,
 .footer-profile-navigation li {
   margin-left: 40px;
-
-  float: left;
 }
 .footer-profile-navigation a,
 .footer-user-navigation a,
