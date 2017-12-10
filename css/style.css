@@ -514,7 +514,8 @@ input[type="search"]:focus + .button-search,
   padding: 0;
   margin-top: 20px;
   margin-bottom: 53px;
-
+  
+  color: #464646;
   font-size: 15px;
   line-height: 30px;
   font-family: "Open Sans", Arial, sans-serif;
@@ -543,7 +544,8 @@ input[type="search"]:focus + .button-search,
 
 .slider-item th {
   padding-top: 7px;
-
+  
+  color: #464646;
   text-align: left;
   font-size: 13px;
   line-height: 20px; 
@@ -735,6 +737,7 @@ ul.services-category-list {
   padding: 0;
   width: 460px;
 
+  color: #464646;
   line-height: 30px;
   font-family: "Open Sans", Arial, sans-serif; 
   font-weight: 300;
@@ -787,6 +790,7 @@ ul.services-category-list {
 }
 
 .information h3 {
+  color: black;
   font-size: 47px;
   font-family: "Gilroy", Arial, sans-serif;
   font-weight: 800;
@@ -1563,8 +1567,7 @@ input[type="checkbox"]:disabled + .color-label:after {
   font-size: 16px;
   font-family: "Gilroy", Arial, sans-serif;
   font-weight: 300px;
-  text-align: right;
-  font-weight: normal;  
+  text-align: right; 
   color: #464646;
 }
 
