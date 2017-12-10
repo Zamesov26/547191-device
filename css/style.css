@@ -621,6 +621,11 @@ input[type="search"]:focus + .button-search,
   padding-left: 8px;
 }
 
+.product-category-item:nth-child(6) img,
+.product-category-item:nth-child(4) img {
+  padding-top: 10px;
+}
+
 .services-background {
   min-width: 1200px;
   margin-bottom: 90px;
@@ -1215,6 +1220,16 @@ input[type="radio"]:active + .radio-label:before{
   border-color: #000000;
 }
 
+input:disabled + .radio-label,
+input:disabled + .color-label {
+  color: #b3b3b3;
+}
+
+input[type="radio"]:disabled + .radio-label:before,
+input[type="checkbox"]:disabled + .color-label:after {
+  border-color: #b3b3b3;
+}
+
 .product-filter button{
   width: 200px;
 }
@@ -1240,10 +1255,6 @@ input[type="radio"]:active + .radio-label:before{
   color: black;
 }
 
-.product-filter p:hover {
-  color: #606060;
-}
-
 .bluetooth-setting {
   margin-bottom: 30px;
 }
@@ -1261,13 +1272,6 @@ input[type="radio"]:active + .radio-label:before{
   flex-grow: 1;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-.product-container:ater {
-  content: "";
-
-  display: block;
-  flex-grow: 1;
 }
 
 .product-sorting {
@@ -1315,6 +1319,7 @@ input[type="radio"]:active + .radio-label:before{
   font-family: "Open Sans", Arial, sans-serif; 
   text-decoration: none;
   color: black;
+  opacity: 0.3;
 }
 
 .sorting-order a {
@@ -1323,23 +1328,24 @@ input[type="radio"]:active + .radio-label:before{
   height: 15px;
 
   background: url("../img/icon-down-dir.svg") no-repeat center;
-  opacity: 0.2;
 }
 
+.sorting-option a:hover,
 .sorting-order a:hover {
   opacity: 0.4;
 }
 
+.sorting-option a:active,
 .sorting-order a:active {
   opacity: 1;
 }
 
-.sorting-item-active a{
-  opacity: 1;
+.sorting-item-active a {
+  opacity: 1
 }
 
 .sorting-item {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .sorting-item:hover,
@@ -1583,6 +1589,7 @@ input[type="radio"]:active + .radio-label:before{
 .footer-profile-navigation li {
   margin-left: 40px;
 }
+
 .footer-profile-navigation a,
 .footer-user-navigation a,
 .main-footer-middle span {
@@ -1658,7 +1665,6 @@ a.footer-login-link::before {
 .footer-compare::before {
   background: url("../img/compare-footer.svg") no-repeat center;
 }
-
 
 .footer-cart::before {
   background: url("../img/cart-footer.svg") no-repeat center;
