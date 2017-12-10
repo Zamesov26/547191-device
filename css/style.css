@@ -100,7 +100,7 @@ body {
 }
 
 .header-nav-top {
-  margin-bottom: 27px;
+  margin-bottom: 26px;
   margin-left: 60px;
   margin-right: 60px;
   display: flex; 
@@ -118,7 +118,7 @@ body {
 }
 
 .header-nav-top ul{
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 
 .main-header-logo {
@@ -141,7 +141,6 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 5px;
-  padding-top: 2px;
   padding-left: 37px;
   height: 44px;
   width: 356px;
@@ -156,7 +155,7 @@ body {
   background: none;
   background-image: url("../img/search.svg");
   background-repeat: no-repeat;
-  background-position: 3px 10px;
+  background-position: 0 10px;
   border: 2px solid transparent;
   border-right: none;
   outline-style: none;
@@ -239,13 +238,13 @@ input[type="search"]:focus + .button-search,
   flex-wrap: wrap;
   margin: 0;
   margin-right: auto;
-  margin-left: 35px;
+  margin-left: 37px;
   padding: 0;
   list-style: none;
 }
 
 .user-navagation-item:first-child a {
-  background: url("../img/user.svg") no-repeat 5px 4px;
+  background: url("../img/user.svg") no-repeat 2px 4px;
   padding-left: 30px;
 }
 
@@ -289,7 +288,7 @@ input[type="search"]:focus + .button-search,
 .header-nav-top .compare {
   padding-left: 20px;
 
-  background: url("../img/compare.svg") no-repeat 12px 4px;
+  background: url("../img/compare.svg") no-repeat 11px 4px;
 }
 
 .header-nav-top .cart {
@@ -331,8 +330,8 @@ input[type="search"]:focus + .button-search,
 .site-catalog::after {
   position: absolute;
   content: "";
-  right: -29px;
-  top: 9px;
+  right: -27px;
+  top: 10px;
 
   width: 16px;
   height: 2px;
@@ -506,8 +505,8 @@ input[type="search"]:focus + .button-search,
   font-size: 47px;
   font-family: "Gilroy", Arial, sans-serif;
   font-weight: 800;  
-  letter-spacing: 0.01em;
-  line-height: normal;  
+  letter-spacing: 0.011em;
+  line-height: 1.2em;  
 }
 
 .item-text {
@@ -543,7 +542,7 @@ input[type="search"]:focus + .button-search,
 }
 
 .slider-item th {
-  padding-top: 10px;
+  padding-top: 7px;
 
   text-align: left;
   font-size: 13px;
@@ -554,7 +553,7 @@ input[type="search"]:focus + .button-search,
 }
 
 .slider-item td {
-  padding-right: 78px;
+  padding-right: 76px;
 
   font-size: 36px;
   font-family: "Gilroy", Arial, sans-serif; 
@@ -621,6 +620,10 @@ input[type="search"]:focus + .button-search,
   padding-left: 8px;
 }
 
+.product-category-item:nth-child(4) img {
+  padding-top: 7px;
+}
+
 .product-category-item:nth-child(6) img,
 .product-category-item:nth-child(4) img {
   padding-top: 10px;
@@ -629,7 +632,7 @@ input[type="search"]:focus + .button-search,
 .services-background {
   min-width: 1200px;
   margin-bottom: 90px;
-  padding-bottom: 69px;
+  padding-bottom: 71px;
   
   background-image: linear-gradient(transparent 26%, #e5e5e5 26%); 
 }
@@ -719,7 +722,7 @@ ul.services-category-list {
 .services h3 {
   padding: 0;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 
   font-size: 47px; 
   font-family: "Gilroy", Arial, sans-serif;
@@ -739,7 +742,7 @@ ul.services-category-list {
 }
 
 .brands{
-  margin-bottom: 142px;
+  margin-bottom: 139px;
 }
 
 .brands-list{
@@ -777,7 +780,7 @@ ul.services-category-list {
 }
 
 .information{
-  margin-bottom: 82px;
+  margin-bottom: 81px;
   display: flex;
   justify-content: space-between;
 }
@@ -790,7 +793,7 @@ ul.services-category-list {
 
 .information p {
   margin-top: 0;
-  margin-bottom: 37px;
+  margin-bottom: 39px;
 
   font-size: 15px;
   font-family: "Open Sans", Arial, sans-serif;
@@ -866,7 +869,7 @@ ul.services-category-list {
 .about h3,
 .contacts h3 {
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .about p {
@@ -874,16 +877,22 @@ ul.services-category-list {
 }
 
 .about p:last-of-type {
-  margin-bottom: 75px;
+  margin-bottom: 76px;
 }
 
 .contacts {
-  width: 560px;
+  width: 562px;
 }
 
 .contacts a {
-  margin-bottom: 68px;
+  margin-bottom: 67px;
 }
+
+.btn-send-msg {
+  padding-left: 5px;
+  padding-right: 0;
+}
+
 
 .breadcrumbs {
   margin: 0;
@@ -897,14 +906,14 @@ ul.services-category-list {
 
 .breadcrumbs li {
   position: relative;
-  margin-right: 35px;
+  margin-right: 40px;
 }
 
 .breadcrumbs li::after {
   position: absolute;
   content: "";
   top: 15px;
-  right: -16px;
+  right: -19px;
   
   width: 5px;
   height: 5px;
@@ -976,8 +985,8 @@ ul.services-category-list {
 .product-filter h2 {
   margin: 0;
   padding: 0;
-  padding-top: 28px;
-  padding-bottom: 26px;
+  padding-top: 25px;
+  padding-bottom: 27px;
 }
 
 .product-filter {
@@ -991,7 +1000,7 @@ ul.services-category-list {
 }
 
 .product-filter h2 {
-  margin-bottom: 66px;
+  margin-bottom: 67px;
   padding-left: 3px;
 }
 
@@ -1086,7 +1095,7 @@ ul.services-category-list {
 }
 
 .product-filter legend {
-  margin-top: 14px;
+  margin-top: 12px;
   margin-bottom: 29px;
 
   float: left;
@@ -1100,7 +1109,7 @@ ul.services-category-list {
 }
 
 .color-setting legend {
-  margin-bottom: 19px;
+  margin-bottom: 21px;
 }
 
 .product-filter-legend + * {
@@ -1260,7 +1269,7 @@ input[type="checkbox"]:disabled + .color-label:after {
 }
 
 .bluetooth-setting legend {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .product-container {
@@ -1324,8 +1333,8 @@ input[type="checkbox"]:disabled + .color-label:after {
 
 .sorting-order a {
   display: block;
-  width: 10px;
-  height: 15px;
+  width: 11px;
+  height: 16px;
 
   background: url("../img/icon-down-dir.svg") no-repeat center;
 }
@@ -1402,7 +1411,7 @@ input[type="checkbox"]:disabled + .color-label:after {
 }
 
 .catalog-item img {
-  margin-bottom: 31px;
+  margin-bottom: 30px;
 }
 
 .catalog a {
@@ -1474,7 +1483,7 @@ input[type="checkbox"]:disabled + .color-label:after {
 
 .pagination-list {
   margin:0;
-  margin-bottom: 79px;
+  margin-bottom: 78px;
   padding: 0; 
 
   display: flex;
@@ -1558,7 +1567,7 @@ input[type="checkbox"]:disabled + .color-label:after {
 }
 
 .main-footer {
-  padding-top: 65px;
+  padding-top: 64px;
   padding-bottom: 65px;
   min-width: 1200px;
 
@@ -1648,7 +1657,7 @@ input[type="checkbox"]:disabled + .color-label:after {
   content: "";
   position: absolute;
   top: -2px;
-  left: 0;
+  left: 2px;
   
   width: 12px;
   height: 12px; 
